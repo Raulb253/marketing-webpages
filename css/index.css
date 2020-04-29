@@ -130,6 +130,7 @@ header .logo {
   display: block;
   margin: 0 auto;
   text-align: center;
+  padding-top: 3%;
 }
 @media (min-width:500px) {
   nav ul {
@@ -279,4 +280,79 @@ footer {
   .secondContent .thirdPic p {
     width: 30%;
   }
+}
+.about-wrapper {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
+}
+.about-wrapper .greeting {
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-wrapper .greeting p {
+  font-size: 2rem;
+  text-align: center;
+}
+.about-wrapper div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-wrapper div img {
+  width: 50%;
+  border-top: 1px dashed #8c8c8c;
+  padding-top: 8%;
+}
+.about-wrapper div p {
+  padding: 5% 0 0 0;
+  margin-bottom: 3%;
+  font-size: 1.5rem;
+  color: black;
+}
+.raul img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  object-position: 0 10%;
+}
+@media (min-width:1000px) {
+  .about-wrapper .greeting {
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-wrapper .greeting p {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .about-wrapper div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-wrapper div img {
+    width: 38%;
+    border-top: 1px dashed #8c8c8c;
+    padding-top: 8%;
+  }
+  .about-wrapper div p {
+    padding: 5% 0 0 0;
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+    color: black;
+  }
+  .raul img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    object-position: 0 10%;
+  }
+}
+header nav .boldText {
+  font-weight: 800;
 }
