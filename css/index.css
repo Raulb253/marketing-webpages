@@ -305,6 +305,8 @@ footer {
   width: 50%;
   border-top: 1px dashed #8c8c8c;
   padding-top: 8%;
+  object-fit: cover;
+  object-position: 0 10%;
 }
 .about-wrapper div p {
   padding: 5% 0 0 0;
@@ -317,8 +319,6 @@ footer {
 .raul img {
   width: 50%;
   height: 50%;
-  object-fit: cover;
-  object-position: 0 10%;
 }
 @media (min-width:1000px) {
   .about-wrapper .greeting {
