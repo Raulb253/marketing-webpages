@@ -132,23 +132,6 @@ header .logo {
   text-align: center;
   padding-top: 3%;
 }
-@media (max-width: 350px) {
-  nav ul {
-    display: flex;
-  }
-  nav ul li {
-    flex-direction: column;
-    list-style: none;
-    align-items: center;
-  }
-  nav ul li a {
-    font-family: 'Catamaran', sans-serif;
-    font-size: 16px;
-    color: #111;
-    font-weight: 100;
-    text-transform: uppercase;
-  }
-}
 @media (min-width:500px) {
   nav ul {
     padding-left: 5%;
@@ -319,7 +302,7 @@ footer {
   align-items: center;
 }
 .about-wrapper div img {
-  width: 50%;
+  width: 40%;
   border-top: 1px dashed #8c8c8c;
   padding-top: 8%;
 }
